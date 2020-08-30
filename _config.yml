@@ -1,2 +1,9 @@
 name: Adam Fowles's Resume
 title: null
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - index.md
